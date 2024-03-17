@@ -5,7 +5,7 @@ const MainSection1 = ({ onSeciont2Click }: { onSeciont2Click: () => void }) => {
   return (
     <section className="h-[67.5rem] flex flex-col justify-between items-center p-[4rem] leading-normal mobile:h-[50.75rem] mobile:p-[2rem]">
       <div className="w-full flex justify-end">
-        <Link href="/indexList">
+        <Link href="/indexList" className="animate-fade2">
           <Image
             src="/svgs/whiteArrow.svg"
             alt=""
@@ -15,7 +15,7 @@ const MainSection1 = ({ onSeciont2Click }: { onSeciont2Click: () => void }) => {
           />
         </Link>
       </div>
-      <div className="flex flex-col text-[5.25rem] font-libreBaskerville italic mb-[5rem] laptop:text-[4.063rem] mobile:text-[1.8rem]">
+      <div className="flex flex-col text-[5.25rem] font-libreBaskerville italic mb-[5rem] laptop:text-[4.063rem] mobile:text-[1.8rem] animate-fade1">
         <span>{"<PORTFOLIO.>"}</span>
         <div className="flex items-start">
           <span>{"</PORTFOLIO.>"}</span>
@@ -24,7 +24,7 @@ const MainSection1 = ({ onSeciont2Click }: { onSeciont2Click: () => void }) => {
           </span>
         </div>
       </div>
-      <div className="w-full flex justify-between items-end">
+      <div className="w-full flex justify-between items-end animate-fade3">
         <div className="flex flex-col font-notoSerifTibetan text-[1.75rem] mobile:text-[1rem]">
           <span>2024</span>
           <span>Portfolio.</span>

@@ -8,6 +8,18 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      animation: {
+        fade1: "fadeIn 1s ease-in-out",
+        fade2: "fadeIn 2s ease-in-out",
+        fade3: "fadeIn 3s ease-in-out",
+      },
+
+      keyframes: {
+        fadeIn: {
+          from: { opacity: "0" },
+          to: { opacity: "1" },
+        },
+      },
       fontFamily: {
         pretendard: ["Pretendard", "sans-serif"],
         notoSerifTibetan: ["NotoSerifTibetan"],

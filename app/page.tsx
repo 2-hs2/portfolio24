@@ -12,9 +12,14 @@ export default function Home() {
   };
 
   return (
-    <main className="text-white bg-black w-screen max-w-[120rem]">
-      <MainSection1 onSeciont2Click={onSeciont2Click} />
-      <MainSection2 section2Ref={section2Ref} />
-    </main>
+    <>
+      <div className="absolute z-10 top-0 left-0 animate-grow"></div>
+      <main className="text-white bg-black w-screen max-w-[120rem]">
+        <MainSection1 onSeciont2Click={onSeciont2Click} />
+        <div className="animate-fade3">
+          <MainSection2 section2Ref={section2Ref} />
+        </div>
+      </main>
+    </>
   );
 }
