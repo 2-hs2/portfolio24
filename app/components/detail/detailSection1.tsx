@@ -80,9 +80,14 @@ const DetailSection1 = ({
           </div>
         </div>
         <div className="flex flex-col gap-4">
-          <span className="font-notoSerifTibetan text-[1.25rem] mobile:text-[1.125rem]">
-            {"<Description. />"}
-          </span>
+          <div className="flex justify-between items-center">
+            <span className="font-notoSerifTibetan text-[1.25rem] mobile:text-[1.125rem]">
+              {"<Description. />"}
+            </span>
+            <span className="font-notoSerifTibetan text-[1rem] mobile:text-[0.75rem] opacity-45">
+              scroll
+            </span>
+          </div>
           <div className="h-max max-h-[25rem] overflow-y-auto mobile:max-h-[13rem] laptop:max-h-[18rem]">
             <div className="flex flex-col gap-4 w-[20rem] font-pretendard text-[1rem] opacity-60 mobile:w-[18rem] mobile:gap-2 mobile:text-[0.875rem] laptop:w-[30rem]">
               {data.desc.map((item, index) => (
@@ -92,9 +97,14 @@ const DetailSection1 = ({
           </div>
         </div>
         <div className="flex flex-col gap-4">
-          <span className="font-notoSerifTibetan text-[1.25rem] mobile:text-[1.125rem]">
-            {"<Meaning. />"}
-          </span>
+          <div className="flex justify-between items-center">
+            <span className="font-notoSerifTibetan text-[1.25rem] mobile:text-[1.125rem]">
+              {"<Meaning. />"}
+            </span>
+            <span className="font-notoSerifTibetan text-[1rem] mobile:text-[0.75rem] opacity-45">
+              scroll
+            </span>
+          </div>
           <div className="h-max max-h-[25rem] overflow-y-auto mobile:max-h-[13rem] laptop:max-h-[18rem]">
             <div className="flex flex-col gap-4 w-[20rem] font-pretendard text-[1rem] opacity-60 mobile:w-[18rem] mobile:gap-2 mobile:text-[0.875rem] laptop:w-[30rem]">
               {data.meaning.map((item, index) => (
