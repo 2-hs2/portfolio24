@@ -21,7 +21,9 @@ const DetailSection2 = ({ data }: { data: DetailSection2Props[] }) => {
             onMouseOver={() => setIsHover(index)}
             onMouseLeave={() => setIsHover(-1)}
             key={index}
-            className="relative w-[24rem] h-[14rem] bg-white mobile:w-[18.75rem] mobile:h-[9rem] laptop:w-[20rem] laptop:h-[10rem]"
+            className={`relative w-[24rem] h-[14rem] bg-white mobile:w-[18.75rem] mobile:h-[9rem] laptop:w-[20rem] laptop:h-[10rem] ${
+              item.link && "hover:opacity-60 duration-300"
+            }`}
           >
             {item.link ? (
               <Link href={item.link} target="_blank">
