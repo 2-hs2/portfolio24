@@ -8,6 +8,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        pretendard: ["Pretendard", "sans-serif"],
+        notoSerifTibetan: ["NotoSerifTibetan", "sans-serif"],
+        libreBaskerville: ["LibreBaskerville"],
+      },
+      screens: {
+        desktop: { min: "1025px", max: "1920px" },
+        laptop: { min: "721px", max: "1024px" },
+        mobile: { min: "0px", max: "720px" },
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
