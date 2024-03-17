@@ -187,7 +187,7 @@ body {
 
 @font-face {
   font-family: "LibreBaskerville";
-  font-style: italic;
+  font-style: noraml;
   font-weight: 400;
   src: url(/fonts/LibreBaskerville-Italic.ttf) format("truetype");
   font-display: SWAP;
