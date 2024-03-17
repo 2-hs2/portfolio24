@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 
 import { indexListData } from "../data/indexListData";
 
@@ -17,15 +18,21 @@ const IndexPage = () => {
       ${isHover != -1 ? "bg-black" : "bg-white"}`}
     >
       <section
-        className={`flex flex-col items-center leading-normal
+        className={`flex flex-col items-center leading-normal mobile:mb-[3rem]
         ${isHover != -1 && "text-white"}`}
       >
         <span className="font-notoSerifTibetan text-[2rem] mobile:text-[1rem]">
           Activities
         </span>
-        <span className="font-libreBaskerville text-[3.125rem] mobile:text-[1.75rem] mb-[3rem]">
+        <span className="font-libreBaskerville text-[3.125rem] mobile:text-[1.75rem]">
           {"<INDEX. />"}
         </span>
+        <Link
+          href="/"
+          className="text-[1rem] hover:blur-sm mobile:text-[0.875rem]"
+        >
+          {"< Home"}
+        </Link>
       </section>
       <section className="w-full overflow-x-auto mb-[3rem] mobile:overflow-visible">
         <div className="w-max flex gap-[7rem] mobile:flex-col mobile:items-center mobile:gap-[4rem] mobile:w-full">

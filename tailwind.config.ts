@@ -14,8 +14,8 @@ const config: Config = {
         libreBaskerville: ["LibreBaskerville"],
       },
       screens: {
-        desktop: { min: "1025px", max: "1920px" },
-        laptop: { min: "680px", max: "1024px" },
+        desktop: { min: "1280px", max: "1920px" },
+        laptop: { min: "680px", max: "1281px" },
         mobile: { min: "0px", max: "681px" },
       },
       backgroundImage: {
