@@ -15,7 +15,7 @@ const DetailSection2 = ({ data }: { data: DetailSection2Props[] }) => {
 
   return (
     <section className="h-max flex justify-center items-center py-[7rem] bg-black text-white leading-normal mobile:h-[50.75rem] laptop:py-[5rem] mobile:py-[3rem]">
-      <div className="flex gap-2 flex-wrap w-[73rem] h-[29rem] overflow-y-auto mobile:w-[18.75rem] mobile:h-[38rem] laptop:w-[40.5rem] laptop:h-[31rem]">
+      <div className="flex gap-2 flex-wrap w-[74rem] h-[29rem] overflow-y-auto mobile:w-[18.75rem] mobile:h-[38rem] laptop:w-[41.5rem] laptop:h-[31rem] scrollCustom bright">
         {data.map((item, index) => (
           <div
             onMouseOver={() => setIsHover(index)}

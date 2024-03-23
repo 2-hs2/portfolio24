@@ -49,7 +49,7 @@ const MainSection2 = ({
       className="h-[67.5rem] flex flex-col justify-center items-center gap-3 p-[4rem] bg-white/10 leading-normal mobile:h-[50.75rem] mobile:p-[2rem]"
     >
       {onClickArrowBtn ? (
-        <div className="w-full h-full flex flex-col justify-between">
+        <div className="w-full h-full flex flex-col justify-between animate-fade1">
           <div className="flex flex-col items-center leading-normal">
             <span className="font-notoSerifTibetan text-[2rem] mobile:text-[1rem]">
               ABOUT
@@ -77,7 +77,7 @@ const MainSection2 = ({
             </div>
           </div>
           {selectedMenu == 0 ? (
-            <div className="flex flex-col items-center gap-[4rem] mb-[8rem] font-pretendard text-[1.25rem] mobile:mb-4 mobile:text-[0.875rem] laptop:mb-0">
+            <div className="flex flex-col items-center gap-[4rem] mb-[8rem] font-pretendard text-[1.25rem] mobile:mb-4 mobile:text-[0.875rem] laptop:mb-0 animate-fade1">
               <div className="flex flex-col items-center gap-1">
                 <span className="opacity-70">
                   디자인이라는 차별화된 능력을 갖춘
@@ -120,7 +120,7 @@ const MainSection2 = ({
               </div>
             </div>
           ) : (
-            <div className="flex justify-center gap-[5rem] mb-[10rem] mobile:flex-col mobile:items-center  mobile:mb-0 mobile:gap-[3rem]">
+            <div className="flex justify-center gap-[5rem] mb-[10rem] mobile:flex-col mobile:items-center  mobile:mb-0 mobile:gap-[3rem] animate-fade1">
               <div className="flex flex-col mobile:items-center">
                 <span className="font-notoSerifTibetan text-[1.5rem] italic mb-5 mobile:mb-0 mobile:text-[1.125rem]">
                   {"<FrontEnd. />"}

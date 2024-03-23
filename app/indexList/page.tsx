@@ -18,8 +18,7 @@ const IndexPage = () => {
       ${isHover != -1 ? "bg-black" : "bg-white"}`}
     >
       <section
-        className={`flex flex-col items-center leading-normal mobile:mb-[3rem]
-        ${isHover != -1 && "text-white"}`}
+        className={`flex flex-col items-center leading-normal mobile:mb-[3rem] animate-fade1`}
       >
         <span className="font-notoSerifTibetan text-[2rem] mobile:text-[1rem]">
           Activities
@@ -34,20 +33,21 @@ const IndexPage = () => {
           {"< Home"}
         </Link>
       </section>
-      <section className="w-full overflow-x-auto mb-[3rem] mobile:overflow-visible">
+      <section className="w-full overflow-x-auto mb-[3rem] mobile:overflow-visible scrollXCustom">
         <div className="w-max flex gap-[7rem] mobile:flex-col mobile:items-center mobile:gap-[4rem] mobile:w-full">
           {indexListData.map((data, index) => (
             <div
               key={index}
               onMouseOver={() => setIsHover(index)}
               onMouseLeave={() => setIsHover(-1)}
+              className="animate-fade2"
             >
               <IndexBox data={data} index={index} isHover={isHover} />
             </div>
           ))}
         </div>
       </section>
-      <BottomDeco dark={isHover != -1 ? false : true} />
+      <BottomDeco dark />
     </main>
   );
 };

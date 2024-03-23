@@ -192,3 +192,44 @@ body {
   src: url(/fonts/LibreBaskerville-Italic.ttf) format("truetype");
   font-display: SWAP;
 }
+
+.scrollNone {
+  -ms-overflow-style: none; /* 인터넷 익스플로러 */
+  scrollbar-width: none; /* 파이어폭스 */
+}
+.scrollNone::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollCustom::-webkit-scrollbar {
+  display: block;
+  width: 10px;
+}
+.scrollCustom::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.scrollCustom::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  background-clip: padding-box;
+  border: 3px solid transparent;
+}
+
+.bright.scrollCustom::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.scrollXCustom::-webkit-scrollbar {
+  display: block;
+  height: 1.51rem;
+}
+.scrollXCustom::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.scrollXCustom::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  background-clip: padding-box;
+  border-top: 0.7rem solid transparent;
+  border-bottom: 0.7rem solid transparent;
+}
