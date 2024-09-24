@@ -170,8 +170,8 @@ export const detailSection2Data = [
     },
     {
       imgSrc: "plitsoft6.png",
-      title: ["지인 어플리케이션", "소개 페이지 개발"],
-      link: "https://zinn.co.kr/",
+      title: ["SNPE 모바일 APP"],
+      link: "https://play.google.com/store/apps/details?id=com.snpe_mobile&hl=ko",
     },
   ],
 ];
