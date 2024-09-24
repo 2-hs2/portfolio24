@@ -107,7 +107,7 @@ const MainSection2 = ({
                     래브라도랩스 프론트팀 인턴 (23.01 - 23.04)
                   </span>
                   <span className="opacity-70">
-                    플리트소프트 프론트팀 인턴 (24.01 -)
+                    플리트소프트 프론트팀 인턴 (24.01 - 24.06)
                   </span>
                 </div>
                 <div className="flex flex-col mobile:items-center laptop:items-center">

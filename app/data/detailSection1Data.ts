@@ -3,7 +3,7 @@ export const detailSection1Data = [
     title: "파란학기제",
     titleEn: "Paran Project",
     period: "{2022.03 - 2022.06}",
-    role: "그래픽 디자인 - UI 디자인 - 웹 퍼블리싱",
+    role: "그래픽 디자인 - UI 디자인 - 웹 프론트엔드 개발",
     techStack: [
       "Design : Illustrator, Xd, Figma",
       "FrontEnd : HTML, CSS, JavaScript, React, Typescript",
@@ -69,7 +69,7 @@ export const detailSection1Data = [
     title: "플리트소프트 인턴",
     titleEn: "Plitsoft Intern",
     period: "{2024.01 - 2024.06}",
-    role: "웹 프론트엔드 개발",
+    role: "웹 및 모바일 프론트엔드 개발",
     techStack: [
       "FrontEnd : HTML, CSS, JavaScript, React, Typescript, Next.js, Stackflow, Turbo, TailwindCSS",
     ],
